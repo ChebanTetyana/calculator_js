@@ -1,4 +1,4 @@
-// ==ОТОБРАЖЕНИЕ ЄЛЕМЕНТОВ==
+
 let firstOperand = "";
 let secondOperand = "";
 let currentOperation;
