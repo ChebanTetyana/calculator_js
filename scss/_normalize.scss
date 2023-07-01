@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: $font_size_main;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-x: hidden;
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(1,204,255,1) 96%, rgba(0,212,255,1) 100%);
+
+    @media screen and (max-width: 992px) {
+        font-size: calc($font_size_main - 1px);
+    }
+}
+
+button {
+    // cursor: pointer;
+    color: #fff;
+
+    &:hover {
+        filter: brightness(130%);
+    }
+}
+
